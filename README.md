@@ -14,3 +14,15 @@ Ich habe in das Projekt noch ein webserial eingebaut, damit man jederzeit über 
 OTA ist auch implementiert. Sobald der Sketch auf dem ESP ist, kann über dein Netzwerk das Projekt aktualisiert werden. 
 
 Bei mir läuft das System nun bereits seit über 4 Jahren absolut zuverlässig.
+
+*Home-Assistant*
+
+Zum Auslesen der Heizung nutze ich hier das vcontrold Add-On: https://github.com/Alexandre-io/homeassistant-vcontrol
+
+Bei TTY einfach die IP:8888 eintragen (<IP>:<PORT>). Port ist im Sketch mit 8888 hinterlegt, kann dort aber auch jederzeit über die Zeile ``int wifi_port`` angepasst werden.
+  
+Alle weiteren Einstellungen im vcontrold müsst Ihr passend zu eurer Heizung einstellen.
+  
+Hier noch eine Beispiel yaml von mir: https://github.com/Alexandre-io/homeassistant-vcontrol/issues/7 Die muss nicht klappen, kann aber (je nachdem welches Heizungsmodell Ihr habt).
+  
+Bitte beachten, dass Ihr sowohl für das vcontrold Add-On, als auch für 1-Wire einen MQTT Server aufsetzen müsst. Ich nutze hier https://github.com/home-assistant/addons/tree/master/mosquitto
