@@ -7,7 +7,7 @@ Das ganz auf einen ESP8266 (z.b. D1-Mini) hochladen.
 
 Den Bauplan für die Hardware erhält man hier https://github.com/openv/openv/wiki/Bauanleitung-ESP8266 Habe bei mir den ESP und die Platine für den "Lesekopf" getrennt gehalten und per Kabel verbunden. Bei mir geht das eher in diese Richtung:
 
-![71757728-5558a180-2e98-11ea-9e9d-23817dd05f42](https://user-images.githubusercontent.com/13675579/224473924-abb88690-653a-4a06-b4ab-779065deb646.jpg)
+![71757728-5558a180-2e98-11ea-9e9d-23817dd05f42](https://user-images.githubusercontent.com/13675579/224473982-29e7c7ef-4ba3-4fdb-9cca-2f0bed8322e4.jpg)
 (Quelle: https://github.com/openv/openv/wiki/Weiterentwicklung-3.3V-TTL-mit-3D-Geh%C3%A4use)
 
 
