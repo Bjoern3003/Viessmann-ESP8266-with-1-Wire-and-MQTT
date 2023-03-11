@@ -5,7 +5,11 @@ Project in die ArduinoIDE oder PlatformIO importieren, Daten von deinem MQTT Ser
 
 Das ganz auf einen ESP8266 (z.b. D1-Mini) hochladen.
 
-Den Bauplan für die Hardware erhält man hier https://github.com/openv/openv/wiki/Bauanleitung-ESP8266 
+Den Bauplan für die Hardware erhält man hier https://github.com/openv/openv/wiki/Bauanleitung-ESP8266 Habe bei mir den ESP und die Platine für den "Lesekopf" getrennt gehalten und per Kabel verbunden. Bei mir geht das eher in diese Richtung:
+
+![71757728-5558a180-2e98-11ea-9e9d-23817dd05f42](https://user-images.githubusercontent.com/13675579/224473924-abb88690-653a-4a06-b4ab-779065deb646.jpg)
+(Quelle: https://github.com/openv/openv/wiki/Weiterentwicklung-3.3V-TTL-mit-3D-Geh%C3%A4use)
+
 
 Der Data Pin für 1-Wire hängt bei mir an GPIO2, kann aber auch im Projekt jederzeit über ``#define ONEWIRE_PIN`` geändert werden.
 
